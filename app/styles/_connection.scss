@@ -1,0 +1,23 @@
+.connection  {
+  position: absolute;
+  top: 435px;
+  left: 810px;
+}
+
+.connection__state {
+  padding-left: 35px;
+  line-height: 22px;
+  font-size: 13px;
+
+  &.connection__state--isDisconected {
+    background: transparent url("images/connection-offline.png") no-repeat left center;
+  }
+
+  &.connection__state--isConnecting {
+    background: transparent url("images/connection-connecting.png") no-repeat left center;
+  }
+
+  &.connection__state--isConnected {
+    background: transparent url("images/connection-online.png") no-repeat left center;
+  }
+}

@@ -1,0 +1,8 @@
+<div class="cockpit" ng-controller="CockpitController">
+  <gauge-directive class="gauge--altitude" data="altitude" show-needle="false"></gauge-directive>
+  <gauge-directive class="gauge--airspeed" data="airspeed" show-needle="true"></gauge-directive>
+  
+  <landing-directive state="landingState" interaction-callback="onLandingChanged"></landing-directive>
+  <flaps-directive state="flapsState" interaction-callback="onFlapsChanged"></flaps-directive>
+  <connection-directive state="connectionState"></connection-directive>
+</div>

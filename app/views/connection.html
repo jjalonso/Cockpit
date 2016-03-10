@@ -1,0 +1,16 @@
+<div class="connection" ng-switch="state">
+  <div ng-switch-when="STATE_CONNECTING"
+    class="connection__state connection__state--isConnecting">
+    Connecting
+  </div>
+
+  <div ng-switch-when="STATE_CONNECTED"
+    class="connection__state connection__state--isConnected">
+    Connected
+  </div>
+
+  <div ng-switch-default
+    class="connection__state connection__state--isDisconnected">
+    Disconnected
+  </div>
+</div>

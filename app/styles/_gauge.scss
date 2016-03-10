@@ -1,0 +1,41 @@
+
+.bigNeedle {
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  left: -80px;
+  top: -143px;
+  background: url("images/needle-big.png") no-repeat center 20%;
+  transform: rotate(90deg);
+}
+
+.gauge {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 30px;
+  width: 80px;
+
+
+  & .gauge__current {
+    line-height: 36px;
+    height: 38px;
+    margin-bottom: 115px;
+  }
+}
+
+    .gauge--altitude {
+      top: 255px;
+      left: 524px;
+    }
+
+    .gauge--airspeed {
+      top: 255px;
+      left: 190px;
+
+      & .gauge__current {
+        padding-left: 7px;
+        letter-spacing: 17px;
+      }
+    }

@@ -1,0 +1,36 @@
+{
+  "name": "cockpit",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Juan Jose Alonso",
+  "license": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack-dev-server --progress --colors",
+    "standard": "./node_modules/.bin/standard"
+  },
+  "standard": {
+    "globals": [
+      "WebSocket"
+    ],
+    "ignore": [
+      "karma.conf.js"
+    ]
+  },
+  "dependencies": {
+    "angular": "^1.4.7"
+  },
+  "devDependencies": {
+    "angular-webpack-plugin": "0.0.3",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.4",
+    "html-loader": "^0.3.0",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "standard": "^5.2.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}

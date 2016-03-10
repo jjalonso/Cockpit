@@ -1,0 +1,16 @@
+<div class="gauge">
+  <div class="gauge__current">
+    {{data.current ? data.current : ' '}}
+  </div>
+  <div class="gauge__min">
+    {{data.min < 99999 ? data.min : '-'}}
+  </div>
+  <div class="gauge__max">
+    {{data.max || '-' }}
+  </div>
+
+  <div class="gauge__avg">
+    {{avg}}
+  </div>
+  <div ng-show="showNeedle" class="bigNeedle"></div>
+</div>

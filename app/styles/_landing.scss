@@ -1,0 +1,22 @@
+
+.landing  {
+  position: absolute;
+  top: 121px;
+  left: 805px;
+  width: 140px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.landing__switch {
+  width: 100%;
+  height: 100%;
+
+  &.landing__switch--on {
+    background: transparent url("images/landing-gear-on.png") no-repeat right center;
+  }
+
+  &.landing__switch--off {
+    background: transparent url("images/landing-gear-off.png") no-repeat left center;
+  }
+}

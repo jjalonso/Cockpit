@@ -1,0 +1,15 @@
+$bckgColor: #636363;
+
+@import "_cockpit.scss";
+@import "_landing.scss";
+@import "_flaps.scss";
+@import "_gauge.scss";
+@import "_connection.scss";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: $bckgColor;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+}

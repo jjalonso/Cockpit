@@ -1,0 +1,8 @@
+<ul class="flaps">
+  <li class="flaps__position"
+    ng-repeat="p in [0,1,2,3,4,5]"
+    ng-class="{'flaps__position--on': state === $index}"
+    ng-click="onClick($index)">
+    {{flapsState}}
+  </li>
+</ul>

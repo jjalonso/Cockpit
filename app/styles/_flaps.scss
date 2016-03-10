@@ -1,0 +1,20 @@
+.flaps {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  top: 257px;
+  left: 802px;
+
+  .flaps__position {
+    float: left;
+    height: 52px;
+    width: 24px;
+
+    &.flaps__position--on {
+      background: transparent url("images/flaps-switch.png") no-repeat center center;
+    }
+  }
+}
